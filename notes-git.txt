@@ -19,4 +19,15 @@ git merge master
 git push origin master
 git push origin <branch_name>
 
-
+git checkout <commit-id>
+View a previous commit.
+git tag -a <tag-name> -m "<description>"
+Create an annotated tag pointing to the most recent commit.
+git revert <commit-id>
+Undo the specified commit by applying a new commit.
+git reset --hard
+Reset tracked files to match the most recent commit.
+git clean -f
+Remove untracked files.
+git reset --hard / git clean -f
+Permanently undo uncommitted changes.
