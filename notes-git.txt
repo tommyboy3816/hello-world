@@ -30,6 +30,7 @@ Reset tracked files to match the most recent commit.
 git clean -f
 Remove untracked files.
 git reset --hard / git clean -f
+
 Permanently undo uncommitted changes.
 git branch
 List all branches.
@@ -43,3 +44,8 @@ git branch -d <branch-name>
 Delete a branch.
 git rm <file>
 Remove a file from the working directory (if applicable) and stop tracking the file.
+
+git commit -a -m "<message>"
+Stage all tracked files and commit the snapshot using the specified message.
+git branch -D <branch-name>
+Force the removal of an unmerged branch (be careful: it will be lost forever).
