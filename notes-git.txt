@@ -31,3 +31,15 @@ git clean -f
 Remove untracked files.
 git reset --hard / git clean -f
 Permanently undo uncommitted changes.
+git branch
+List all branches.
+git branch <branch-name>
+Create a new branch using the current working directory as its base.
+git checkout <branch-name>
+Make the working directory and the HEAD match the specified branch.
+git merge <branch-name>
+Merge a branch into the checked-out branch.
+git branch -d <branch-name>
+Delete a branch.
+git rm <file>
+Remove a file from the working directory (if applicable) and stop tracking the file.
